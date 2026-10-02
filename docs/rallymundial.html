@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia del Campeonato Mundial de Rally (WRC)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: linear-gradient(135deg, #0f0f0f 0%, #1a1a2e 50%, #16213e 100%);
+            color: #f0f0f0;
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+        header {
+            background: linear-gradient(90deg, #c41e3a, #8b0000);
+            padding: 2.5rem 1.5rem;
+            text-align: center;
+            box-shadow: 0 8px 32px rgba(196, 30, 58, 0.4);
+        }
+        header h1 {
+            font-size: clamp(1.8rem, 5vw, 3rem);
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+        }
+        header p {
+            font-size: 1.15rem;
+            opacity: 0.95;
+            margin-top: 0.5rem;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 2rem 1.25rem 4rem;
+        }
+        section {
+            background: rgba(255,255,255,0.04);
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 2.5rem;
+            border: 1px solid rgba(255,255,255,0.08);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.35);
+            transition: transform 0.3s ease;
+        }
+        section:hover {
+            transform: translateY(-4px);
+        }
+        h2 {
+            font-size: 1.75rem;
+            color: #ff4d4d;
+            margin-bottom: 1.25rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #c41e3a;
+            display: inline-block;
+        }
+        p {
+            margin-bottom: 1.1rem;
+            font-size: 1.05rem;
+            color: #e0e0e0;
+        }
+        .img-wrapper {
+            margin: 1.75rem 0;
+            text-align: center;
+        }
+        .img-wrapper img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            border: 2px solid rgba(255,255,255,0.1);
+        }
+        .img-caption {
+            font-size: 0.9rem;
+            color: #aaa;
+            margin-top: 0.6rem;
+            font-style: italic;
+        }
+        ul {
+            margin: 1rem 0 1.5rem 1.5rem;
+        }
+        li {
+            margin-bottom: 0.6rem;
+        }
+        .highlight {
+            background: linear-gradient(90deg, rgba(196,30,58,0.25), transparent);
+            padding: 1rem 1.25rem;
+            border-left: 4px solid #c41e3a;
+            border-radius: 0 8px 8px 0;
+            margin: 1.5rem 0;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #0a0a0a;
+            font-size: 0.9rem;
+            color: #888;
+        }
+        .nav-dots {
+            position: fixed;
+            right: 18px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            z-index: 100;
+        }
+        .nav-dots a {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.3);
+            display: block;
+            transition: all 0.3s;
+        }
+        .nav-dots a:hover {
+            background: #c41e3a;
+            transform: scale(1.3);
+        }
+        @media (max-width: 700px) {
+            .nav-dots { display: none; }
+            section { padding: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Historia del Rally Mundial</h1>
+        <p>Desde los inicios hasta el Grupo B y el Rally Chile 2026</p>
+    </header>
+
+    <div class="nav-dots">
+        <a href="#inicio" title="Inicios"></a>
+        <a href="#grupob" title="Grupo B"></a>
+        <a href="#evolucion" title="Evolución"></a>
+        <a href="#famoso" title="Por qué famoso"></a>
+        <a href="#chile" title="Chile 2026"></a>
+    </div>
+
+    <div class="container">
+
+        <!-- 1. INICIOS -->
+        <section id="inicio">
+            <h2>1. Los inicios del Campeonato Mundial de Rally (1973)</h2>
+            <p>El <strong>Campeonato Mundial de Rally (WRC)</strong> nació oficialmente en 1973 bajo la organización de la FIA. Antes existían campeonatos europeos y pruebas míticas como el Rally de Montecarlo (desde 1911), pero 1973 marcó el primer campeonato verdaderamente mundial de marcas.</p>
+            <p>Ese año participaron 11 constructores: Alpine-Renault, Lancia, Fiat, Ford, Porsche, Toyota y otros. Alpine-Renault se proclamó el primer campeón de marcas, dominando el Montecarlo con un 1-2-3 histórico.</p>
+            <p>En los primeros años solo se premiaba a los constructores. El campeonato de pilotos llegó más tarde. Los coches eran derivados de producción (Grupo 2 y Grupo 4) con tracción trasera o delantera, potencias modestas y mucha habilidad del piloto.</p>
+            
+            <div class="img-wrapper">
+                <img src="images/imagen1.jpg"
+                     alt="Coche clásico de los inicios del WRC">
+                <p class="img-caption">Los primeros años del WRC (años 70 – principios de los 80)</p>
+            </div>
+        </section>
+
+        <!-- 2. GRUPO B -->
+        <section id="grupob">
+            <h2>2. La era legendaria del Grupo B (1982-1986)</h2>
+            <p>En 1982 la FIA introdujo el <strong>Grupo B</strong>, una categoría con regulaciones extremadamente liberales: solo se necesitaban 200 unidades de homologación, se permitían chasis tubulares, materiales avanzados, turbos sin límite de presión y tracción integral.</p>
+            <p>El resultado fueron verdaderos “monstruos” de más de 400-550 CV y pesos cercanos a los 900 kg. Coches como el <strong>Audi Quattro</strong>, <strong>Lancia 037</strong>, <strong>Peugeot 205 T16</strong> y el brutal <strong>Lancia Delta S4</strong> redefinieron el rally.</p>
+            <ul>
+                <li><strong>Audi Quattro</strong>: introdujo la tracción integral y dominó las primeras temporadas.</li>
+                <li><strong>Lancia 037</strong>: último coche de tracción trasera en ganar el título de marcas (1983).</li>
+                <li><strong>Peugeot 205 T16</strong>: motor central, 4WD, dos títulos consecutivos (1985-86).</li>
+                <li><strong>Lancia Delta S4</strong>: turbo + compresor, más de 500 CV, el más extremo de todos.</li>
+            </ul>
+            
+            <div class="img-wrapper">
+                <img src="images/images.jpg"  
+                     alt="Lancia Delta S4 Grupo B">
+                <p class="img-caption">Lancia Delta S4 – el símbolo máximo del Grupo B</p>
+            </div>
+
+            <div class="highlight">
+                <strong>El final trágico:</strong> En 1986 una serie de accidentes mortales (Portugal con espectadores y el trágico Tour de Corse donde murieron Henri Toivonen y Sergio Cresto) obligó a la FIA a prohibir el Grupo B a partir de 1987.
+            </div>
+        </section>
+
+        <!-- 3. EVOLUCIÓN -->
+        <section id="evolucion">
+            <h2>3. Cómo evolucionó el WRC después del Grupo B</h2>
+            <p>Tras la prohibición, el <strong>Grupo A</strong> (coches más cercanos a la producción, limitados a ~300 CV) se convirtió en la categoría reina. Lancia dominó con el Delta Integrale (6 títulos consecutivos de marcas entre 1987 y 1992).</p>
+            <p>En 1997 nacieron los <strong>World Rally Cars</strong>, prototipos basados en modelos de calle pero con gran libertad técnica. Luego llegaron las eras de Citroën-Sébastien Loeb (9 títulos), Volkswagen-Ogier, y actualmente los <strong>Rally1 híbridos</strong> (desde 2022) con motores 1.6 turbo + sistema híbrido de unos 500 CV combinados.</p>
+            <p>La seguridad, el control de costes y la sostenibilidad han sido los ejes de la evolución, manteniendo sin embargo el espíritu puro del rally: velocidad extrema en carreteras abiertas, superficies variables y pilotaje al límite.</p>
+            
+            <div class="img-wrapper">
+                <img src="images/toyotaimagen.webp" 
+                     alt="Toyota GR Yaris Rally1 moderno">
+                <p class="img-caption">Toyota GR Yaris Rally1 – la generación actual (híbrida)</p>
+            </div>
+        </section>
+
+        <!-- 4. POR QUÉ ES FAMOSO -->
+        <section id="famoso">
+            <h2>4. ¿Por qué el Rally Mundial es tan famoso?</h2>
+            <p>El WRC combina varios elementos únicos que lo hacen irresistible:</p>
+            <ul>
+                <li><strong>Diversidad de superficies</strong>: nieve, asfalto, tierra, grava, barro… cada prueba exige un setup y un estilo de pilotaje diferente.</li>
+                <li><strong>Proximidad al público</strong>: los aficionados pueden estar a pocos metros de los coches a más de 180 km/h.</li>
+                <li><strong>Héroes y leyendas</strong>: Walter Röhrl, Michèle Mouton, Ari Vatanen, Colin McRae, Sébastien Loeb, Sébastien Ogier…</li>
+                <li><strong>El factor humano</strong>: el copiloto (navegador) es tan importante como el piloto. Una nota mal leída puede terminar en accidente.</li>
+                <li><strong>La era Grupo B</strong> sigue siendo el “Santo Grial” para muchos aficionados: la época más salvaje, rápida y peligrosa de la historia del automovilismo.</li>
+            </ul>
+            <p>Esa mezcla de adrenalina, técnica, dramatismo y paisajes espectaculares explica por qué el WRC sigue cautivando a millones de seguidores en todo el mundo.</p>
+            
+            <div class="img-wrapper">
+                <img src="images/audi.jpg" 
+                     alt="Audi Quattro Grupo B">
+                <p class="img-caption">Audi Sport Quattro – el coche que cambió el rally para siempre</p>
+            </div>
+        </section>
+
+        <!-- 5. RALLY CHILE 2026 -->
+        <section id="chile">
+            <h2>5. El último gran capítulo: Rally Chile BioBío 2026</h2>
+            <p>Del <strong>10 al 13 de septiembre de 2026</strong> se disputó la 12ª ronda del Campeonato Mundial en las cercanías de Concepción, Chile. Tramos de grava rápidos y técnicos en los bosques de la región del Biobío.</p>
+            <p><strong>Resultado final:</strong></p>
+            <ul>
+                <li>1º <strong>Oliver Solberg / Elliott Edmondson</strong> (Toyota GR Yaris Rally1) – 2h57m08.2s</li>
+                <li>2º Sébastien Ogier / Vincent Landais (Toyota) +16.6s</li>
+                <li>3º Adrien Fourmaux / Alexandre Coria (Hyundai) +33.3s</li>
+            </ul>
+            <p>Solberg logró su segunda victoria de la temporada 2026 (después de Montecarlo) y Toyota selló su <strong>sexto título consecutivo de constructores</strong> y el décimo en total, igualando el récord histórico de Lancia.</p>
+            <p>El Rally Chile se ha consolidado como una de las pruebas más espectaculares del calendario actual, con tramos fluidos, paisajes imponentes y un ambiente fantástico de los aficionados chilenos.</p>
+            
+            <div class="img-wrapper">
+                <img src="images/rallychile.jpg" 
+                     alt="Rally Chile">
+                <p class="img-caption">Ambiente del Rally Chile – tramos de grava y público apasionado</p>
+            </div>
+
+            <div class="highlight">
+                <strong>Clasificación de pilotos tras Chile 2026 (12 de 14 rondas):</strong><br>
+                1. Elfyn Evans – 230 pts<br>
+                2. Sami Pajari – 213 pts<br>
+                3. Oliver Solberg – 209 pts
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        Presentación generada sobre la historia del Campeonato Mundial de Rally (WRC)<br>
+        Fuentes: FIA, Wikipedia, WRC oficial y reportes de la temporada 2026
+    </footer>
+</body>
+</html>
